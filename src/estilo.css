@@ -1,0 +1,207 @@
+body
+{
+    font-family: "Times New Roman";
+    background-image: url(background-t.png);
+    font-style: oblique;
+}
+#imgTop
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#menuHor
+{
+    text-align: center; 
+    font-weight: 1000;
+}
+ul li
+{
+    display: inline;
+}
+ul a
+{
+        padding: 10;
+}
+ul
+{
+    padding:10;
+    background-color:#4EBABA;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 25;
+}
+p
+{
+    clear: right;
+    font-size: 16;
+}
+
+#rodape
+{
+    color:white;
+    text-align: center;
+    font-size: 16;
+}
+
+#imglixo
+{
+    margin-bottom: 20px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+#imgHome1
+{
+    float: left;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    margin-right: 50
+}
+#pHome1
+{
+text-align: center;
+margin-top:100;
+margin-right: 50;
+font-style: oblique;
+font-size: 30;
+}
+
+#imgHome2
+{ 
+    float: left;
+    margin-top:10;
+    margin-left: 200px;
+    margin-bottom: 30px;
+}
+a:link, a:visited
+{
+    text-decoration: none;
+    color:white;
+    font-style: oblique;
+}
+a:hover
+{
+    background-color:gray;
+}
+
+footer
+{
+    clear: both;
+    background-color: black;
+    padding: 10px;
+    width: 100%;
+}
+#map
+{
+    float: left;
+    clear: both;
+    height: 300px;
+    width: 400px;
+    margin-left: 10em;
+    margin-bottom: 3em;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+#mapQ
+{
+    
+    clear: both;
+    height: 300px;
+    width: 400px;
+    margin-left: auto;
+    margin-bottom: 3em;
+    margin-top: 30px;
+    margin-right: auto;
+}
+#pMap
+{
+margin-top:50;
+margin-bottom: 100;
+margin-right: 50;
+font-style: oblique;
+font-size: 20; 
+}
+
+hr
+{
+    margin-left: 70px;
+    margin-right: 70px;
+    clear: both;
+    border-width: 5px;
+    color:black;
+}
+#LinkTC
+{
+    color: #4EBABA;
+    font-weight: 1000;
+    font-size: 34;
+}
+#LinkTC:hover
+{
+    background-color: white;
+    text-decoration: underline;
+}
+#projLinkTC
+{
+    color: #4EBABA;
+    font-weight: 1000;
+    font-size: 34;
+}
+#projLinkTC:hover
+{
+    background-color: white;
+    text-decoration: underline;
+}
+h1
+{
+    text-align: center;
+    font-size: 34;
+}
+.pquemsomos
+{
+    font-size: 24;
+    margin-left: 400;
+    margin-right: 400;
+    text-align: center;
+}
+.pcon
+{
+    font-size: 24;
+    margin-left: 350;
+    margin-right: 350;
+    text-align: center;
+}
+#acon
+{
+    color:#4EBABA;
+}
+#acon:hover
+{
+   background-color: white;
+    color: #4EBABA;
+    text-decoration: underline;
+}
+#contact_form
+{
+    margin-left: 550;
+}
+.form_test
+{
+    text-align: center;
+    font-size: 24px;
+}
+.ptrabalhe
+{
+    text-align: center;
+    font-size: 24px;
+    margin-right: 350;
+    margin-left: 350;
+}
+#handsTC
+{
+    margin-left: 420;
+    width: 500;
+    height: 300;
+}

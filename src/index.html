@@ -1,0 +1,54 @@
+<!DOCTYPE>
+    <html>
+        <head>
+            <meta charset=utf-8/>
+            <meta name="author" content="Lucas Maia"/>
+        <meta name="keywords" content="meio ambiente, ecologia, lixo"/>
+        <meta name="description" content="coleta de lixo, meio ambiente"/>
+        <title>Projeto Baixada Limpa</title>
+        <link rel="stylesheet" type="text/css" href="estilo.css"/>
+        </head>
+        <body>
+            <img id="imgTop" src="projeto_baixada.jpg" width="200px" height="230px"/>
+            <ul id="menuHor"><br/>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="quem_somos.html">Quem Somos</a></li>
+            <li><a href="projetos.html">Projetos</a></li>
+            <li><a href="conscientizacao.html">Conscientização</a></li>
+            <li><a href="trabalhe_conosco.html">Trabalhe Conosco</a></li></ul>
+            <br/>
+            <a href="trabalhe_conosco.html"><img id="imgHome1" src="Limpeza.png" width="500px" height="300px" alt="limpeza voluntaria"/></a>
+            <aside id="pHome1">Venha nos ajudar a preservar a beleza natural das nossas praias, ajude nos na limpeza voluntaria das praias<br/>
+                <a href="trabalhe_conosco.html" id="LinkTC">Inscreva-se</a></aside> 
+            <hr/>
+            <a href="trabalhe_conosco.html"><img id="imgHome2" src="Transporte.png" width="500px" height="300px" alt="transporte de entulho"/></a>
+            <aside id="pHome1">Contrate os nossos serviços de transporte de lixo e entulho<br/>
+            <a a href="trabalhe_conosco.html" id="LinkTC">Peça um Orçamento</a></aside>
+            <hr/>
+            <div id="map"></div>  
+            <script>
+   function initMap() {
+        var uluru = {lat: -23.960350, lng: -46.332452};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 18,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"></script>
+            <p id="pMap">Avenida Ana Costa 374, cj. 41
+Gonzaga - Santos - São Paulo<br/>
+            CEP:. 11060-002 - Brasil<br/>
+Tel:. +55 13 3027-8595  Fax:. +55 13 3284-0421<br/>
+Cel:. +55 13 99125-0224  </p>
+        </body>
+        <footer>
+            <p id="rodape">
+	    <br/>
+            </p>
+        </footer>
+    </html>

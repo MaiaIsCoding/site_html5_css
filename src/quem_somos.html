@@ -1,0 +1,49 @@
+<!DOCTYPE>
+    <html>
+        <head>
+            <meta charset="utf-8"/>
+            <meta name="author" content="Lucas Maia"/>
+        <meta name="keywords" content="meio ambiente, ecologia, lixo"/>
+        <meta name="description" content="coleta de lixo, meio ambiente"/>
+        <title>Projeto Baixada Limpa</title>
+        <link rel="stylesheet" type="text/css" href="estilo.css"/>
+        </head>
+        <body>
+            <img id="imgTop" src="projeto_baixada.jpg" width="200px" height="230px"/>
+                 <ul id="menuHor"><br/>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="quem_somos.html">Quem Somos</a></li>
+            <li><a href="projetos.html">Projetos</a></li>
+            <li><a href="conscientizacao.html">Conscientização</a></li>
+            <li><a href="trabalhe_conosco.html">Trabalhe Conosco</a></li></ul>
+            <br/>
+            <h1>Nossa Visão</h1>
+            <p class="pquemsomos">Queremos ajudar nossa cidade através de nossos serviços, profissionais ou voluntarios se tornando uma referência no mercado de serviços no segmento ambiental,com excelência</p>
+            <hr/>
+            <h1 >Missão</h1>
+            <p class="pquemsomos">Ajudar a cuidar da Baixada Santista fazendo o recolhimento e descarte do lixo de forma apropriada seguindo todas as normas ambientais e de sustentabilidade</p>
+            <hr/>
+            <h1>Nossa Estrutura</h1>
+            <p class="pquemsomos">A disposição do lixo também é uma parte muito importante, e o nosso equipamento e estrutura faz o desarte mais apropiado sempre se preocupando com o meio ambiente </p>
+            <div id="mapQ"></div>  
+            <script>
+   function initMap() {
+        var uluru = {lat: -23.960350, lng: -46.332452};
+        var map = new google.maps.Map(document.getElementById('mapQ'), {
+          zoom: 18,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"></script>
+        </body>
+        <footer>
+            <p id="rodape">
+            <br/>
+            </p>
+        </footer>
+    </html>
